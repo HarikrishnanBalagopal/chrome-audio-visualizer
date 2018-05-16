@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Audio Visualizer",
+  "description": "This extension creates a audio visualizer if clicked while watching a youtube video",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Open a Youtube video and click here!"
+  },
+  "background": {
+    "scripts": ["test.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "http://www.google.com/*",
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
