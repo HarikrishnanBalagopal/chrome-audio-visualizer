@@ -6,3 +6,6 @@ Installation:
 2. Go to chrome://extensions and enable "Developer Mode"
 3. Click "Load Unpacked" and browse to the repo folder
 4. Now the extension should be installed and the extension icon should show up near the settings button. Simply open a youtube video in a tab and click the extension icon to insert the audio visualizer element.
+
+Example:
+![Audio Visualizer Running on a Youtube video](demo.gif)
